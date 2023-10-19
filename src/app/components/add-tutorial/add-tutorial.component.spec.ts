@@ -55,7 +55,6 @@ describe('AddTutorialComponent', () => {
     expect(tutorialService.create).toHaveBeenCalledWith({
       title: 'Test Title',
       description: 'Test Description',
-      published: true,
     });
   });
 
